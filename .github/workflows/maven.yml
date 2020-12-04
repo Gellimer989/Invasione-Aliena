@@ -25,7 +25,7 @@ jobs:
         uses: actions/upload-artifact@v1
         with:
           name: report
-          path: target/site/checkstyle.html
+          path: target/site
   build:
 
     runs-on: ubuntu-latest

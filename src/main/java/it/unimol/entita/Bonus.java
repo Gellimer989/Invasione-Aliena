@@ -12,24 +12,24 @@ import java.awt.image.BufferedImage;
  * @author Francesco Chiacchiari
  */
 
-public class Bonus extends Thread{
+public class Bonus extends Thread {
     private int x;
     private int y;
     private int larghezza;
     private int alezza;
-    private final int velocita=10;
+    private final int velocita = 10;
     Gioco gioco;
     private boolean attivo;
     BufferedImage img;
 
 
-    public Bonus(BufferedImage img,int x,int larghezza,int altezza,Gioco gioco){
-        this.x=x;
-        this.alezza= altezza;
-        this.larghezza= larghezza;
-        this.img=img;
-        y=30;
-        this.gioco= gioco;
+    public Bonus(BufferedImage img, int x, int larghezza, int altezza, Gioco gioco) {
+        this.x = x;
+        this.alezza = altezza;
+        this.larghezza = larghezza;
+        this.img = img;
+        y = 30;
+        this.gioco = gioco;
 
     }
 
@@ -52,42 +52,46 @@ public class Bonus extends Thread{
             }
         }
     }
+
     private void aggiorna() {
-        x-=velocita;
-        if(x<=-40){
+        x -= velocita;
+        if (x <= -40) {
             this.setAttivo(false);
         }
 
     }
+
     /**
      * restituisce i valori necessari per
      * essere utilizzate nella clasee {@link it.unimol.gestori.GestoreCollisioni}
      * per verificare se la collisione avviene
+     *
      * @return restituisce le coordinate x,y e la grandezza
      * dell' oggetto
      */
 
-    public Rectangle getBordo(){
-        return new Rectangle(x,y,larghezza,alezza);
+    public Rectangle getBordo() {
+        return new Rectangle(x, y, larghezza, alezza);
     }
 
-    public boolean getStato(){
+    public boolean getStato() {
         return attivo;
     }
 
-    public void disegna(Graphics g){
-        g.drawImage(img,x,y,larghezza,alezza,null);
+    public void disegna(Graphics g) {
+        g.drawImage(img, x, y, larghezza, alezza, null);
     }
+
     /**
      * metodo che gestisce lo stato
      * dell' oggetto per settarne la visibilita
+     *
      * @param stato variabile che gestisce la
-     * visibilità dell' oggetto
+     *              visibilità dell' oggetto
      */
     public void setAttivo(boolean stato) {
         attivo = stato;
     }
-
 
 
 }

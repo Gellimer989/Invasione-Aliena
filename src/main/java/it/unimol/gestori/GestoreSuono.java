@@ -20,6 +20,7 @@ public class GestoreSuono {
      * tramite la calsse Clip, un tipo speciale
      * di linea di dati i cui dati audio possono essere
      * caricati prima della riproduzione, anziché essere trasmessi in streaming in tempo reale.
+     *
      * @param path percorso relativo al file audio
      */
     public void caricasuono(String path) {
@@ -28,13 +29,13 @@ public class GestoreSuono {
 
             if (music.exists()) {
                 Clip clip;
-                if(path.equals("D:/esercizi/InvasioneAliena/src/it/unimol/risorse/suoni/Duck song.wav")){
+                if (path.equals("D:/esercizi/InvasioneAliena/src/it/unimol/risorse/suoni/Duck song.wav")) {
                     AudioInputStream audioInput = AudioSystem.getAudioInputStream(music);
                     clip = AudioSystem.getClip();
                     clip.open(audioInput);
                     clip.start();
                     clip.loop(6);
-                }else {
+                } else {
                     AudioInputStream audioInput = AudioSystem.getAudioInputStream(music);
                     clip = AudioSystem.getClip();
                     clip.open(audioInput);

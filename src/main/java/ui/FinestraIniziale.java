@@ -2,7 +2,7 @@ package ui;
 
 import it.unimol.file.FileInputRecord;
 import it.unimol.gestori.GestoreInterfaccia;
-import it.unimol.gioco.Gioco;
+
 import it.unimol.record.ListaRecord;
 
 import javax.swing.*;
@@ -24,11 +24,11 @@ public class FinestraIniziale {
     private ListaRecord listaRecord = ListaRecord.getInstance();
 
     public FinestraIniziale(GestoreInterfaccia gestoreInterfaccia) {
-        listaRecord.listaRecord=fileInputRecord.leggiFile(listaRecord.listaRecord);
+        listaRecord.listaRecord = fileInputRecord.leggiFile(listaRecord.listaRecord);
         bottoneGioca.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                gestoreInterfaccia.status =1;
+                gestoreInterfaccia.status = 1;
                 gestoreInterfaccia.sceltaInterfaccia();
             }
         });
@@ -41,7 +41,7 @@ public class FinestraIniziale {
         bottoneClassifica.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                gestoreInterfaccia.status =4;
+                gestoreInterfaccia.status = 4;
                 gestoreInterfaccia.sceltaInterfaccia();
 
             }

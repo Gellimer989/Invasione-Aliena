@@ -21,29 +21,29 @@ public class Vittoria {
     private JTextField campoNome;
     private JButton bottoneRigioca;
     private JLabel scoreLabel;
-    private FileOutputRecord fileOutputRecord= FileOutputRecord.getInstance();
+    private FileOutputRecord fileOutputRecord = FileOutputRecord.getInstance();
 
-    public Vittoria(int punteggio, GestoreInterfaccia gestoreInterfaccia){
+    public Vittoria(int punteggio, GestoreInterfaccia gestoreInterfaccia) {
         scoreLabel.setText(String.valueOf(punteggio));
 
         bottoneRigioca.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                gestoreInterfaccia.status=1;
+                gestoreInterfaccia.status = 1;
                 gestoreInterfaccia.sceltaInterfaccia();
             }
         });
         bottoneEsci.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                if(!campoNome.getText().isEmpty()){
+                if (!campoNome.getText().isEmpty()) {
                     Record nuovoRecord = new Record();
                     nuovoRecord.setNomeGiocatore(campoNome.getText());
                     nuovoRecord.setPunteggioPartita(punteggio);
                     ListaRecord listaRecord = ListaRecord.getInstance();
                     listaRecord.aggiungiRecord(nuovoRecord);
                     fileOutputRecord.ScritturaSuFile(listaRecord.listaRecord);
-                    System.out.println(nuovoRecord.getNomeGiocatore()+" "+nuovoRecord.getPunteggioPartita());
+                    System.out.println(nuovoRecord.getNomeGiocatore() + " " + nuovoRecord.getPunteggioPartita());
                 }
                 System.exit(0);
             }

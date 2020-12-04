@@ -5,11 +5,10 @@ import it.unimol.record.ListaRecord;
 import it.unimol.record.Record;
 
 import javax.swing.*;
-import java.awt.*;
+
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.util.Collections;
-import java.util.Comparator;
+
 
 /**
  * classe utilizzata per far visualizzare al giocatore i record,
@@ -22,19 +21,19 @@ public class FinestraRecord {
     private JButton bottoneIndietro;
     private JTextArea areaTesto;
     private JPanel pannelloRecord;
-    private ListaRecord listaRecord= ListaRecord.getInstance();
+    private ListaRecord listaRecord = ListaRecord.getInstance();
 
-    public FinestraRecord(GestoreInterfaccia gestoreInterfaccia){
+    public FinestraRecord(GestoreInterfaccia gestoreInterfaccia) {
         areaTesto.setEditable(false);
 
-        for (Record record:listaRecord.listaRecord){
-            areaTesto.append("Player: " + record.getNomeGiocatore()+  " Score: "+ String.valueOf(record.getPunteggioPartita()  )+"\n");
+        for (Record record : listaRecord.listaRecord) {
+            areaTesto.append("Player: " + record.getNomeGiocatore() + " Score: " + String.valueOf(record.getPunteggioPartita()) + "\n");
 
         }
         bottoneIndietro.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                gestoreInterfaccia.status=5;
+                gestoreInterfaccia.status = 5;
                 gestoreInterfaccia.sceltaInterfaccia();
             }
         });

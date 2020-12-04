@@ -53,8 +53,8 @@ public class Proiettile extends Thread {
     }
 
     private void aggiornaProiettile() {
-        y-=velocita;
-        if(y+altezza<0){
+        y -= velocita;
+        if (y + altezza < 0) {
             this.setAttivo(false);
             Giocatore.proiettili.remove(this);
         }

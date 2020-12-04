@@ -1,7 +1,22 @@
-#Fri Dec 04 12:14:46 CET 2020
-D\:\\java\\InvasioneAliena\\src\\main\\java\\it\\unimol\\caricatore\\CaricatoreImmagini.java=1592260257857
-configuration*?=DF9D7CA7130A2AEDD974D1832DED7300F8879E6D
-D\:\\java\\InvasioneAliena\\src\\main\\java\\it\\unimol\\gestori\\GestoreCollisioni.java=1592341753492
+#Fri Dec 04 12:38:05 CET 2020
+configuration*?=F25353940B863AB175EAB6080CE4A4B7BEE6533A
 D\:\\java\\InvasioneAliena\\src\\main\\java\\it\\unimol\\record\\Record.java=1592387307820
-D\:\\java\\InvasioneAliena\\src\\main\\java\\it\\unimol\\gestori\\GestoreSuono.java=1592341388188
-D\:\\java\\InvasioneAliena\\src\\main\\java\\it\\unimol\\record\\ListaRecord.java=1592341388391
+D\:\\java\\InvasioneAliena\\src\\main\\java\\it\\unimol\\gestori\\GestoreCollisioni.java=1607081775374
+D\:\\java\\InvasioneAliena\\src\\main\\java\\it\\unimol\\gestori\\GestoreSuono.java=1607081775240
+D\:\\java\\InvasioneAliena\\src\\main\\java\\ui\\Vittoria.java=1607081687175
+D\:\\java\\InvasioneAliena\\src\\main\\java\\ui\\FinestraRecord.java=1607081820804
+D\:\\java\\InvasioneAliena\\src\\main\\java\\it\\unimol\\file\\FileInputRecord.java=1592486969888
+D\:\\java\\InvasioneAliena\\src\\main\\java\\it\\unimol\\entita\\Bombe.java=1592338989484
+D\:\\java\\InvasioneAliena\\src\\main\\java\\it\\unimol\\entita\\Proiettile.java=1607081820858
+D\:\\java\\InvasioneAliena\\src\\main\\java\\it\\unimol\\main\\Main.java=1607081820762
+D\:\\java\\InvasioneAliena\\src\\main\\java\\ui\\FinestraIniziale.java=1607081852335
+D\:\\java\\InvasioneAliena\\src\\main\\java\\it\\unimol\\entita\\Alieno.java=1607081687158
+D\:\\java\\InvasioneAliena\\src\\main\\java\\it\\unimol\\caricatore\\CaricatoreImmagini.java=1607081633702
+D\:\\java\\InvasioneAliena\\src\\main\\java\\it\\unimol\\entita\\Bonus.java=1607081820781
+D\:\\java\\InvasioneAliena\\src\\main\\java\\it\\unimol\\gestori\\GestoreInterfaccia.java=1592472731808
+D\:\\java\\InvasioneAliena\\src\\main\\java\\ui\\GameOver.java=1607081852362
+D\:\\java\\InvasioneAliena\\src\\main\\java\\it\\unimol\\entita\\Alieni.java=1607081633725
+D\:\\java\\InvasioneAliena\\src\\main\\java\\it\\unimol\\entita\\Giocatore.java=1607081775316
+D\:\\java\\InvasioneAliena\\src\\main\\java\\it\\unimol\\record\\ListaRecord.java=1607081775201
+D\:\\java\\InvasioneAliena\\src\\main\\java\\it\\unimol\\file\\FileOutputRecord.java=1607081820822
+D\:\\java\\InvasioneAliena\\src\\main\\java\\it\\unimol\\gioco\\Gioco.java=1607081852373

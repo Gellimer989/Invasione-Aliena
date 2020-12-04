@@ -13,7 +13,7 @@ import java.awt.event.KeyListener;
 import java.awt.image.BufferStrategy;
 import java.awt.image.BufferedImage;
 import java.util.ArrayList;
-import java.util.Collections;
+
 
 /**
  * classe principale del gioco,

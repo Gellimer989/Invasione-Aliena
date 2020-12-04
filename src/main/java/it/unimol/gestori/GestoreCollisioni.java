@@ -12,19 +12,19 @@ import it.unimol.entita.*;
 
 public class GestoreCollisioni {
 
-    public static boolean controllaCollisioni(Giocatore giocatore, Alieno alieno){
+    public static boolean controllaCollisioni(Giocatore giocatore, Alieno alieno) {
         return giocatore.getBordo().intersects(alieno.getBordo());
     }
 
-    public static boolean controllaCollisioniBonus(Proiettile proiettile, Bonus bonus){
+    public static boolean controllaCollisioniBonus(Proiettile proiettile, Bonus bonus) {
         return proiettile.getBordo().intersects(bonus.getBordo());
     }
 
-    public  static boolean controllaProiettileNave(Proiettile proiettile, Alieno alieno){
+    public static boolean controllaProiettileNave(Proiettile proiettile, Alieno alieno) {
         return proiettile.getBordo().intersects(alieno.getBordo());
     }
 
-    public  static boolean controllaProiettiliNemici(Bombe bomba, Giocatore giocatore){
+    public static boolean controllaProiettiliNemici(Bombe bomba, Giocatore giocatore) {
         return bomba.getBordo().intersects(giocatore.getBordo());
     }
 }

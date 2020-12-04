@@ -75,13 +75,13 @@ public class Alieno extends Thread {
      * iesimo Alieno
      */
     public void sganciaBomba() {
-        if(bombe.size()<1){
+        if (bombe.size() < 1) {
             bombe.add(new Bombe(proiettile, 5, 10, x - larghezza / 2, y, gioco));
         }
     }
 
     private int rnd() {
-        sparo = (int) (Math.random()*20);
+        sparo = (int) (Math.random() * 20);
         return sparo;
     }
 
@@ -115,8 +115,9 @@ public class Alieno extends Thread {
     /**
      * viene chiamato dalla classe {@link Gioco}
      * così da poter disegnare su schermo ogni singolo oggetto
+     *
      * @param g di tipo Graphics, oggetto che contiene i metodi
-     * per disegnare su schermo
+     *          per disegnare su schermo
      */
     public void disegna(Graphics g) {
         g.drawImage(image, x, y, larghezza, altezza, gioco);
@@ -126,6 +127,7 @@ public class Alieno extends Thread {
      * restituisce i valori necessari per
      * essere utilizzate nella clasee {@link it.unimol.gestori.GestoreCollisioni}
      * per verificare se la collisione avviene
+     *
      * @return restituisce le coordinate x,y e la grandezza
      * dell' oggetto
      */

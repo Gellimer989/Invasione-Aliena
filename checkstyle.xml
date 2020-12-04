@@ -4,19 +4,11 @@
         "https://checkstyle.org/dtds/configuration_1_3.dtd">
 <module name="Checker">
     <module name="TreeWalker">
-        <module name="AvoidStaticImport">
-            <property name="excludes" value="java.lang.System.out,java.lang.Math.*"/>
+        <module name="AvoidStarImport"/>
+        <module name="UnusedImports"/>
+        <module name="WhitespaceAround">
+            <property name="allowEmptyConstructors" value="true"/>
         </module>
-        <module name="ImportOrder">
-            <property name="groups" value="*,javax,java"/>
-            <property name="ordered" value="true"/>
-            <property name="separated" value="false"/>
-            <property name="option" value="top"/>
-            <property name="sortStaticImportsAlphabetically" value="true"/>
-        </module>
-        <module name="SuppressionXpathSingleFilter">
-            <property name="checks" value="ImportOrder"/>
-            <property name="message" value="^'java\..*'.*"/>
-        </module>
+
     </module>
 </module>

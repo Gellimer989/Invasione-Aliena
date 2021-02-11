@@ -100,14 +100,14 @@ public class Gioco extends Canvas implements KeyListener, Runnable {
     private void caricaRisorse() {
         CaricatoreImmagini carica = new CaricatoreImmagini();
 
-        fine = carica.caricaImmagine("/it/unimol/risorse/immagini/spaceVictory.jpg");
-        sfondo = carica.caricaImmagine("/it/unimol/risorse/immagini/sfondo.png");
-        nave = carica.caricaImmagine("/it/unimol/risorse/immagini/navicella 1..png");
-        naveBonusimg = carica.caricaImmagine("/it/unimol/risorse/immagini/alieno 2.png");
-        nemici = carica.caricaImmagine("/it/unimol/risorse/immagini/navicella n 2..png");
-        nemici2 = carica.caricaImmagine("/it/unimol/risorse/immagini/alieno2.png");
-        bombaAlieno = carica.caricaImmagine("/it/unimol/risorse/immagini/alienProiettile.jpg");
-        proiettileNavicella = carica.caricaImmagine("/it/unimol/risorse/immagini/naveproiettile.jpg");
+        fine = carica.caricaImmagine("src/main/resources/spaceVictory.jpg");
+        sfondo = carica.caricaImmagine("src/main/resources/sfondo.png");
+        nave = carica.caricaImmagine("src/main/resources/navicella 1..png");
+        naveBonusimg = carica.caricaImmagine("src/main/resources/alieno 2.png");
+        nemici = carica.caricaImmagine("src/main/resources/navicella n 2..png");
+        nemici2 = carica.caricaImmagine("src/main/resources/alieno2.png");
+        bombaAlieno = carica.caricaImmagine("src/main/resources/alienProiettile.jpg");
+        proiettileNavicella = carica.caricaImmagine("src/main/resources/naveproiettile.jpg");
         System.out.println("risorse caricate");
     }
 

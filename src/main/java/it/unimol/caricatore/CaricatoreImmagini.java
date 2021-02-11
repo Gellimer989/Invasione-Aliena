@@ -2,7 +2,10 @@ package it.unimol.caricatore;
 
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
+import java.io.File;
 import java.io.IOException;
+import java.net.URL;
+import java.util.Objects;
 
 /**
  * classe utilizzata per effettuare il caricamento di immagini sul frame del gioco,
@@ -25,9 +28,9 @@ public class CaricatoreImmagini {
      */
     public BufferedImage caricaImmagine(String percorso) {
         try {
-            image = ImageIO.read(getClass().getResource( percorso ));
+            image = ImageIO.read(new File(percorso));
         } catch (IOException e) {
-            System.out.println("immagine alla posizione" + percorso + " caricata correttamente");
+            System.out.println("immagine alla posizione" + percorso + " non è stata caricata correttamente");
             e.printStackTrace();
         }
         return image;

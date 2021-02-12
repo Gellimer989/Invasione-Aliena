@@ -10,7 +10,7 @@ RUN apt install curl
 
 RUN apt-get install -y libxrender1 libxtst6 libxi6
 
-RUN curl -L -H "Accept: application/vnd.github.v3+json" -H "Authorization: " https://api.github.com/repos/Devy99/dragonball-game-java/actions/artifacts/35346488/zip --output game.zip
+RUN curl -L -H "Accept: application/vnd.github.v3+json" -H "Authorization: "  --output game.zip
 
 RUN unzip game.zip
 

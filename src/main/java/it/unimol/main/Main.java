@@ -1,7 +1,7 @@
 package it.unimol.main;
 
+import it.unimol.*;
 import it.unimol.gestori.GestoreInterfaccia;
-
 
 import javax.swing.*;
 

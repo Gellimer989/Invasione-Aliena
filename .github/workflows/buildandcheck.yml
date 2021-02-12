@@ -11,7 +11,7 @@ on:
 
 jobs:
   code-quality:
-    name: Run CHeckstyle
+    name: Run Checkstyle
     runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v1
@@ -37,4 +37,10 @@ jobs:
       with:
         java-version: 1.8
     - name: Build with Maven
-      run: mvn -B package --file pom.xml
+      run: mvn -B package --file pom.xml.
+  
+    - name: Publish Artifact
+      uses: actions/upload-artifact@v2
+      with:
+        path: target/InvasioneAliena-1.0-SNAPSHOT.jar
+        name: artifact

@@ -28,7 +28,7 @@ public class CaricatoreImmagini {
      */
     public BufferedImage caricaImmagine(String percorso) {
         try {
-            image = ImageIO.read(new File(percorso));
+            image = ImageIO.read(getClass().getClassLoader().getResource(percorso));
         } catch (IOException e) {
             System.out.println("immagine alla posizione" + percorso + " non è stata caricata correttamente");
             e.printStackTrace();

@@ -100,14 +100,14 @@ public class Gioco extends Canvas implements KeyListener, Runnable {
     private void caricaRisorse() {
         CaricatoreImmagini carica = new CaricatoreImmagini();
 
-        fine = carica.caricaImmagine("src/main/resources/spaceVictory.jpg");
-        sfondo = carica.caricaImmagine("src/main/resources/sfondo.png");
-        nave = carica.caricaImmagine("src/main/resources/navicella 1..png");
-        naveBonusimg = carica.caricaImmagine("src/main/resources/alieno 2.png");
-        nemici = carica.caricaImmagine("src/main/resources/navicella n 2..png");
-        nemici2 = carica.caricaImmagine("src/main/resources/alieno2.png");
-        bombaAlieno = carica.caricaImmagine("src/main/resources/alienProiettile.jpg");
-        proiettileNavicella = carica.caricaImmagine("src/main/resources/naveproiettile.jpg");
+        fine = carica.caricaImmagine("spaceVictory.jpg");
+        sfondo = carica.caricaImmagine("sfondo.png");
+        nave = carica.caricaImmagine("navicella 1..png");
+        naveBonusimg = carica.caricaImmagine("alieno 2.png");
+        nemici = carica.caricaImmagine("navicella n 2..png");
+        nemici2 = carica.caricaImmagine("alieno2.png");
+        bombaAlieno = carica.caricaImmagine("alienProiettile.jpg");
+        proiettileNavicella = carica.caricaImmagine("naveproiettile.jpg");
         System.out.println("risorse caricate");
     }
 

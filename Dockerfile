@@ -10,8 +10,8 @@ RUN apt install curl
 
 RUN apt-get install -y libxrender1 libxtst6 libxi6
 
-RUN curl -L -H "Accept: application/vnd.github.v3+json" -H "Authorization: " https://api.github.com/repos/Devy99/dragonball-game-java/actions/artifacts/35346488/zip --output game.zip
+RUN curl -L -H "Accept: application/vnd.github.v3+json" -H "Authorization: token 3778149e58ad85a9b3abe510d05f1a17824e10ef" https://api.github.com/repos/Gellimer989/AutomatedSW/actions/artifacts/40678491 --output InvasioneAliena.zip
 
-RUN unzip game.zip
+RUN unzip InvasioneAliena.zip
 
-CMD ["java", "-jar", "CHROME_DINO.jar"]
+CMD ["java", "-jar", "InvasioneAliena.jar"]

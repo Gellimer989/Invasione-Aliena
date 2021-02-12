@@ -35,7 +35,6 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <addClasspath>true</addClasspath>
                             <mainClass>it.unimol.main.Main</mainClass>
                         </manifest>
                     </archive>

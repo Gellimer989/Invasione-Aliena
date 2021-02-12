@@ -25,13 +25,13 @@ public class FinestraIniziale {
 
     public FinestraIniziale(GestoreInterfaccia gestoreInterfaccia) {
         listaRecord.listaRecord = fileInputRecord.leggiFile(listaRecord.listaRecord);
-        bottoneGioca.addActionListener(new ActionListener() {
+        /*bottoneGioca.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 gestoreInterfaccia.status = 1;
                 gestoreInterfaccia.sceltaInterfaccia();
             }
-        });
+        });*/
         bottoneEsci.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {

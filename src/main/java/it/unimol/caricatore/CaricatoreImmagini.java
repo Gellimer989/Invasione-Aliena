@@ -2,11 +2,7 @@ package it.unimol.caricatore;
 
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
-import java.io.File;
 import java.io.IOException;
-import java.net.URL;
-import java.util.Objects;
-
 /**
  * classe utilizzata per effettuare il caricamento di immagini sul frame del gioco,
  *

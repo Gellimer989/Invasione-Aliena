@@ -10,7 +10,7 @@ RUN apt install curl
 RUN apt-get install -y libxrender1 libxtst6 libxi6
 RUN apt install -y  p7zip-full
 
-RUN curl -L -H "Accept: application/vnd.github.v3+json" -H "Authorization:token " https://api.github.com/repos/Gellimer989/AutomatedSW/actions/artifacts/40851530/zip --output artifact.zip
+RUN curl -L -H "Accept: application/vnd.github.v3+json" -H "Authorization:token 26c9d6d89e8d00a43449536deaf8b23dd140c88a" https://api.github.com/repos/Gellimer989/AutomatedSW/actions/artifacts/41160943/zip --output artifact.zip
 
 RUN 7z x artifact.zip
 

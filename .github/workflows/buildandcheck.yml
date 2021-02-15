@@ -25,7 +25,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           path: target/checkstyle-result.xml
-          name: artifact
+          name: CheckStyleReport
 
   build:
     runs-on: ubuntu-latest

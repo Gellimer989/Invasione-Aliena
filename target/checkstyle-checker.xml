@@ -8,6 +8,9 @@
         <module name="WhitespaceAround">
             <property name="allowEmptyConstructors" value="true"/>
         </module>
-
+        <module name="GenericWhitespace"/>
+        <module name="RedundantImport"/>
+       <!-- <module name="AvoidStarImport"/> -->
     </module>
+   
 </module>

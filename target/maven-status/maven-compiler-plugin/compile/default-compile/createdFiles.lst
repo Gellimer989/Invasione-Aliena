@@ -23,6 +23,5 @@ it\unimol\record\ListaRecord.class
 ui\GameOver$1.class
 it\unimol\entita\Bonus.class
 it\unimol\gestori\GestoreCollisioni.class
-it\unimol\caricatore\CaricatoreImmagini.class
 ui\FinestraIniziale$2.class
 it\unimol\entita\Alieno.class

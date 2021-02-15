@@ -10,7 +10,7 @@ import it.unimol.entita.*;
  * @author Francesco Chiacchiari
  */
 
-public class GestoreCollisioni{
+public class GestoreCollisioni {
 
     public static boolean controllaCollisioni(Giocatore giocatore, Alieno alieno) {
         return giocatore.getBordo().intersects(alieno.getBordo());

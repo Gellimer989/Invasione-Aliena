@@ -6,7 +6,7 @@ class AlienoTest {
 
     @Test
     void disegna() {
-        System.out.println("<assda");
+        System.out.println("test");
     }
     
 }

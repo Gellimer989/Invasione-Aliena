@@ -128,4 +128,5 @@ public class FinestraIniziale {
     public JComponent $$$getRootComponent$$$() {
         return panel1;
     }
+
 }

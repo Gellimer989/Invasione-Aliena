@@ -1,4 +1,4 @@
-#Mon Feb 15 17:15:08 CET 2021
+#Mon Feb 15 17:49:07 CET 2021
 configuration*?=C12EFB8A9B447710E224DBB4D47AEFC0F49A74A6
 D\:\\java\\InvasioneAliena\\src\\main\\java\\it\\unimol\\gestori\\GestoreCollisioni.java=1613403479426
 D\:\\java\\InvasioneAliena\\src\\main\\java\\it\\unimol\\record\\Record.java=1592387307820
@@ -13,8 +13,8 @@ D\:\\java\\InvasioneAliena\\src\\main\\java\\ui\\FinestraIniziale.java=161340084
 D\:\\java\\InvasioneAliena\\src\\main\\java\\it\\unimol\\entita\\Alieno.java=1607081687158
 D\:\\java\\InvasioneAliena\\src\\main\\java\\it\\unimol\\caricatore\\CaricatoreImmagini.java=1613404902266
 D\:\\java\\InvasioneAliena\\src\\main\\java\\it\\unimol\\entita\\Bonus.java=1607081820781
-D\:\\java\\InvasioneAliena\\src\\main\\java\\it\\unimol\\gestori\\GestoreInterfaccia.java=1592472731808
 D\:\\java\\InvasioneAliena\\src\\main\\java\\ui\\GameOver.java=1613400482583
+D\:\\java\\InvasioneAliena\\src\\main\\java\\it\\unimol\\gestori\\GestoreInterfaccia.java=1613407619558
 D\:\\java\\InvasioneAliena\\src\\main\\java\\it\\unimol\\entita\\Alieni.java=1607081633725
 D\:\\java\\InvasioneAliena\\src\\main\\java\\it\\unimol\\entita\\Giocatore.java=1607081775316
 D\:\\java\\InvasioneAliena\\src\\main\\java\\it\\unimol\\record\\ListaRecord.java=1607081775201

@@ -12,5 +12,4 @@
         <module name="RedundantImport"/>
        <!-- <module name="AvoidStarImport"/> -->
     </module>
-   
 </module>

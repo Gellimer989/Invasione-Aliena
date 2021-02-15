@@ -22,10 +22,10 @@ jobs:
       - name: Run checkstyle scan and report
         run: mvn -B verify checkstyle:checkstyle
       - name: Publish Artifact
-          uses: actions/upload-artifact@v2
-          with:
-            path: target/checkstyle-result.xml
-            name: artifact
+        uses: actions/upload-artifact@v2
+        with:
+          path: target/checkstyle-result.xml
+          name: artifact
 
   build:
     runs-on: ubuntu-latest

@@ -20,7 +20,7 @@ jobs:
         with:
           java-version: 1.8
       - name: Run checkstyle scan and report
-        run: mvn -B verify checkstyle:checkstyle
+        run: mvn -B verify checkstyle:check
       - name: Publish Artifact
         uses: actions/upload-artifact@v2
         with:

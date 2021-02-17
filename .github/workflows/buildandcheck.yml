@@ -44,9 +44,3 @@ jobs:
         with:
           path: target/InvasioneAliena-1.0-SNAPSHOT.jar
           name: InvasioneAliena1.0
-  test:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - name: Maven Test
-        run: mvn -B clean test

@@ -263,6 +263,8 @@ public class Gioco extends Canvas implements KeyListener, Runnable {
     public void keyPressed(KeyEvent e) {
         int keycode = e.getKeyCode();
         switch (keycode) {
+            default:
+                break;
             case KeyEvent.VK_LEFT:
                 giocatore.spostaSinistra();
                 break;
@@ -272,8 +274,8 @@ public class Gioco extends Canvas implements KeyListener, Runnable {
             case KeyEvent.VK_SPACE:
                 giocatore.spara();
                 this.gestoreSuono.caricasuono("D:/esercizi/InvasioneAliena/src/it/unimol/risorse/suoni/smb_fireworks.wav");
-
                 break;
+
         }
 
     }

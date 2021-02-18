@@ -32,7 +32,7 @@ jobs:
         with:
           java-version: 1.8
       - name: Run checkstyle scan
-        run: mvn -B spotbugs:spotbugs
+        run: mvn -B compile spotbugs:spotbugs
       - name: Publish SpotBugs report
         uses: actions/upload-artifact@v2
         with:

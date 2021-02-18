@@ -24,7 +24,7 @@ jobs:
       - name: Publish Report
         uses: actions/upload-artifact@v2
         with:
-          path: target/checkstyle-result.xml
+          path: target/site
           name: CheckStyleReport
 
   build:

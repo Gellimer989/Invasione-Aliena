@@ -1,5 +1,7 @@
 package ui;
 
+import com.intellij.uiDesigner.core.GridConstraints;
+import com.intellij.uiDesigner.core.GridLayoutManager;
 import it.unimol.gestori.GestoreInterfaccia;
 import it.unimol.record.ListaRecord;
 import it.unimol.record.Record;
@@ -61,27 +63,27 @@ public class FinestraRecord {
      */
     private void $$$setupUI$$$() {
         pannelloRecord = new JPanel();
-        pannelloRecord.setLayout(new com.intellij.uiDesigner.core.GridLayoutManager(3, 1, new Insets(0, 0, 0, 0), -1, -1));
+        pannelloRecord.setLayout(new GridLayoutManager(3, 1, new Insets(0, 0, 0, 0), -1, -1));
         pannelloRecord.setBackground(new Color(-14013137));
         areaTesto = new JTextArea();
         areaTesto.setBackground(new Color(-14013137));
         Font areaTestoFont = this.$$$getFont$$$("OCR A Extended", -1, 28, areaTesto.getFont());
         if (areaTestoFont != null) areaTesto.setFont(areaTestoFont);
         areaTesto.setForeground(new Color(-12544960));
-        pannelloRecord.add(areaTesto, new com.intellij.uiDesigner.core.GridConstraints(1, 0, 1, 1, com.intellij.uiDesigner.core.GridConstraints.ANCHOR_CENTER, com.intellij.uiDesigner.core.GridConstraints.FILL_BOTH, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_WANT_GROW, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_WANT_GROW, null, new Dimension(150, 50), null, 0, false));
+        pannelloRecord.add(areaTesto, new GridConstraints(1, 0, 1, 1, GridConstraints.ANCHOR_CENTER, GridConstraints.FILL_BOTH, GridConstraints.SIZEPOLICY_WANT_GROW, GridConstraints.SIZEPOLICY_WANT_GROW, null, new Dimension(150, 50), null, 0, false));
         final JLabel label1 = new JLabel();
         Font label1Font = this.$$$getFont$$$("OCR A Extended", Font.BOLD, 36, label1.getFont());
         if (label1Font != null) label1.setFont(label1Font);
         label1.setForeground(new Color(-4511988));
         label1.setText("WHO SAVED THE WORLD?");
-        pannelloRecord.add(label1, new com.intellij.uiDesigner.core.GridConstraints(0, 0, 1, 1, com.intellij.uiDesigner.core.GridConstraints.ANCHOR_CENTER, com.intellij.uiDesigner.core.GridConstraints.FILL_NONE, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_FIXED, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_FIXED, null, null, null, 0, false));
+        pannelloRecord.add(label1, new GridConstraints(0, 0, 1, 1, GridConstraints.ANCHOR_CENTER, GridConstraints.FILL_NONE, GridConstraints.SIZEPOLICY_FIXED, GridConstraints.SIZEPOLICY_FIXED, null, null, null, 0, false));
         bottoneIndietro = new JButton();
         bottoneIndietro.setBackground(new Color(-14013137));
         Font bottoneIndietroFont = this.$$$getFont$$$("OCR A Extended", -1, -1, bottoneIndietro.getFont());
         if (bottoneIndietroFont != null) bottoneIndietro.setFont(bottoneIndietroFont);
         bottoneIndietro.setForeground(new Color(-12544960));
         bottoneIndietro.setText("INDIETRO");
-        pannelloRecord.add(bottoneIndietro, new com.intellij.uiDesigner.core.GridConstraints(2, 0, 1, 1, com.intellij.uiDesigner.core.GridConstraints.ANCHOR_CENTER, com.intellij.uiDesigner.core.GridConstraints.FILL_NONE, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_CAN_SHRINK | com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_CAN_GROW, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_FIXED, null, null, null, 0, false));
+        pannelloRecord.add(bottoneIndietro, new GridConstraints(2, 0, 1, 1, GridConstraints.ANCHOR_CENTER, GridConstraints.FILL_NONE, GridConstraints.SIZEPOLICY_CAN_SHRINK | GridConstraints.SIZEPOLICY_CAN_GROW, GridConstraints.SIZEPOLICY_FIXED, null, null, null, 0, false));
     }
 
     /**
@@ -109,4 +111,5 @@ public class FinestraRecord {
     public JComponent $$$getRootComponent$$$() {
         return pannelloRecord;
     }
+
 }

@@ -241,7 +241,7 @@ public class Gioco extends Canvas implements KeyListener, Runnable {
      * permette di ridisegnare le entita tramite il metodo {@code disegna()},
      * controlla inoltre le collisioni con il metodo {@code aggiorna},
      * e chiama il metodo {@code controlloVittoria()} per
-     * controllare se il giocatore ha perso o vinto
+     * controllare se il giocatore ha perso o vinto!
      */
 
     @Override

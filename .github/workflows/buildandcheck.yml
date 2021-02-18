@@ -39,7 +39,6 @@ jobs:
           path: target/spotbugsXml.xml
           name: SpotBugs report
 
-
   build:
     runs-on: ubuntu-latest
     steps:

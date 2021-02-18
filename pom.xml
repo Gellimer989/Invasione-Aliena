@@ -13,8 +13,6 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
-
-
     <dependencies>
         <dependency>
             <groupId>com.intellij</groupId>
@@ -22,7 +20,6 @@
             <version>7.0.3</version>
         </dependency>
     </dependencies>
-
 
     <reporting>
         <plugins>
@@ -96,7 +93,6 @@
                 <artifactId>spotbugs-maven-plugin</artifactId>
                 <version>4.2.0</version>
                 <dependencies>
-                    <!-- overwrite dependency on spotbugs if you want to specify the version of spotbugs -->
                     <dependency>
                         <groupId>com.github.spotbugs</groupId>
                         <artifactId>spotbugs</artifactId>

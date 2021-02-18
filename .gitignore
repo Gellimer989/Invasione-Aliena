@@ -6,11 +6,12 @@
 # Editor-based HTTP Client requests
 /httpRequests/
 
-#.idea
+#.idea folder
 .idea/
 
-#
+#out foldr
 out/
+
 # target folder
 target/
 

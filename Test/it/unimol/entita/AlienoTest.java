@@ -1,5 +1,6 @@
 package it.unimol.entita;
 
+
 import org.junit.jupiter.api.Test;
 
 class AlienoTest {

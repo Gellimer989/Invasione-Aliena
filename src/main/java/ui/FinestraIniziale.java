@@ -1,7 +1,6 @@
 package ui;
 
-import com.intellij.uiDesigner.core.GridConstraints;
-import com.intellij.uiDesigner.core.GridLayoutManager;
+import com.intellij.uiDesigner.core.*;
 import it.unimol.file.FileInputRecord;
 import it.unimol.gestori.GestoreInterfaccia;
 

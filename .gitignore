@@ -9,9 +9,12 @@
 #.idea folder
 .idea/
 
-#out foldr
+#out folder
 out/
 
-# target folder
+#including file .iml
+*.iml
+
+#target folder
 target/
 
